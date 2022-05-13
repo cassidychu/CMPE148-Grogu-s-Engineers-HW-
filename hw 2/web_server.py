@@ -4,7 +4,7 @@ import sys # In order to terminate the program
 serverSocket = socket(AF_INET, SOCK_STREAM) #Prepare a sever socket
 #Fill in start
 server = 6789
-serverSocket.bind('',server)
+serverSocket.bind(('',server))
 serverSocket.listen(1)
 #Fill in end
 while True:
