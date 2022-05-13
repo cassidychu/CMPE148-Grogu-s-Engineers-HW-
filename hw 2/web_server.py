@@ -18,7 +18,7 @@ while True:
       outputdata = f.read() #Fill in start #Fill in end 
       #Send one HTTP header line into socket
       #Fill in start
-      connectionSOcket.send('\nHTTP/1.1 400 Bad Request\n\n'.encode())
+      connectionSocket.send('\nHTTP/1.1 400 Bad Request\n\n'.encode())
       #Fill in end
       #Send the content of the requested file to the client 
       for i in range(0, len(outputdata)):
