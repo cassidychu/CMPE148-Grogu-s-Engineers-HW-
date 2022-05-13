@@ -3,9 +3,9 @@ msg = "\r\n I love computer networks!"
 endmsg = "\r\n.\r\n"
 
 print ('Test')
-# Choose a mail server and call it mailserver
-mailserver = "localhost"
-mailport = 25
+# Choose a mail server (e.g. Google mail server) and call it mailserver
+mailserver = "smtp.gmail.com"
+mailport = 587
 
 # Create socket called clientSocket and establish a TCP connection with mailserver
 clientSocket = socket(AF_INET, SOCK_STREAM)
